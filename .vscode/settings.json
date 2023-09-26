@@ -1,0 +1,23 @@
+{
+    "search.exclude": {
+        "**/target": true
+    },
+    // terminal settings
+    "terminal.integrated.profiles.linux": {
+        "fish": {
+            "path": "fish"
+        },
+        "bash": {
+            "path": "bash",
+            "icon": "terminal-bash"
+        }
+    },
+    "terminal.integrated.defaultProfile.linux": "fish",
+    // rust settings
+    // https: //code.visualstudio.com/docs/languages/rust
+    "[rust]": {
+        "editor.defaultFormatter": "rust-lang.rust-analyzer",
+        "editor.formatOnSave": true
+    },
+    "rust-analyzer.checkOnSave.command": "clippy",
+}
